@@ -87,4 +87,4 @@ const unique = function(arr) {
 ```
 利用console.time去看执行时间，最快的是方案三，方案一&方案四不相上下，最慢的是方案五；
 
-![consoletime](array-deduplication/consoletime.JPG)
+![console](./array-deduplication/console.JPG)
