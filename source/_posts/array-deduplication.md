@@ -58,6 +58,7 @@ const unique = function(arr) {
 
 ### 方案四
 > indexOf()与filter结合使用，O(n)，排名：2
+
 1、filter是返回为true的元素
 2、indexOf会返回元素第一次出现的位置
 3、利用以上两个特点就有下面的代码
@@ -73,6 +74,7 @@ const unique = function(arr) {
 
 ### 方案五
 > 数字元素需要先排序，O(n)，排名：5
+
 1、先排序
 2、再利用filter，返回符合true条件的元素
 3、条件就是：当前项和后一项不相等的(如2,2,3,4,4,5  => 22相等，23不相等返回2,34不相等返回3，44相等，45不相等返回4，5undefined不相等返回5)
