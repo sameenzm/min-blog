@@ -79,8 +79,8 @@ theme: yilia
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  # repo: git@github.com:sameenzm/sameenzm.github.io.git
-  repo: github_token@github.com/sameenzm/sameenzm.github.io.git
+  repo: git@github.com:sameenzm/sameenzm.github.io.git
+  # repo: github_token@github.com/sameenzm/sameenzm.github.io.git
   branch: master
 
 jsonContent:
