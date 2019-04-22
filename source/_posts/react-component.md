@@ -3,7 +3,7 @@ title: react-component
 date: 2018-06-19 23:41:59
 tags:
 - react
-- typwscript
+- typescript
 - webpack
 ---
 
