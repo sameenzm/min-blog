@@ -124,7 +124,8 @@ foo();
 现在，那不是最好的用户体验，是吗？
 那么，我们如何在不阻塞UI并使用浏览器无响应的情况下执行繁重的代码呢？好吧，解决方案是异步回调。
 
-这将在“如何实际运行Javascript”教程的第2部分中进行更相信的解释：“在V8引擎内部+有关如何编写优化代码的5个技巧”。
+这将在“如何实际运行Javascript”教程的第2部分中进行更相信的解释：[“在V8引擎内部+有关如何编写优化代码的5个技巧”](https://blog.sessionstack.com/how-javascript-works-inside-the-v8-engine-5-tips-on-how-to-write-optimized-code-ac089e62b12e)。
+
 > 后面的部分 好像就是广告了..
 
 与此同时，如果你在 Javascript 应用程序中难以复制和理解问题，请查看 SessionStack 。SessionStack记录Web应用程序中的所有内容：所有DOM更改，用户交互，Javascript异常，栈跟踪，失败的网络请求和调用消息。
