@@ -231,7 +231,7 @@ ps: 字体图标网站：[www.iconfont.cn](https://www.iconfont.cn/)
 [回到顶部](#目录)
 
 ## plugins
-plugin可以再webpack运行到某个时刻，在打包节点帮你做一些事情。
+plugin 可以在 webpack运行到某个时刻的时候，在打包节点帮你做一些事情。
 类似在webpack某生命周期下，就可以用plugins为webpack 做一些事情。
 
 ```
@@ -407,7 +407,9 @@ module: {
 ```
 
 > @babel/preset-env 转换ES6代码，包含了所有es6转es5的翻译规则
+
 安装这个之后还得做一个配置：
+
 ```
 // .babelrc 或者 像上面一样配置在options里
 {
@@ -464,7 +466,7 @@ ps: babel-loader下的options中配置的那些代码可以统一放到`.babelrc
 ### treeshaking
 摇树，即意思是 把没用过的都摇掉，即只打包用过的代码；
 Tree Shaking 只支持ES Module（只支持import引入，即静态引入，不支持require引入(动态引入)）
-但是有不想被摇掉的文件比如样式文件，就配下`usedExports`和`sideEffects`
+但是有不想被摇掉的文件比如样式文件，就在配好`usedExports`后再配下`sideEffects`
 
 ```
 // development 配置
